@@ -1,4 +1,4 @@
-FROM kentwait/bioconda-mpi
+FROM kentwait/anaconda-mpi
 MAINTAINER Kent Kawashima <kentkawashima@gmail.com>
 
 # Install bioinformatics related tools
