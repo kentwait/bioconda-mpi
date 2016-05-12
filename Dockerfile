@@ -3,6 +3,7 @@ MAINTAINER Kent Kawashima <kentkawashima@gmail.com>
 
 # Install bioinformatics related tools
 RUN conda install -q -y biopython
+RUN pip install bioseq
 RUN cd /home/docker && ipcluster nbextension enable
 
 # Allow notebook to communicate with outside world
